@@ -1,38 +1,115 @@
-.App {
+body {
+  background: white;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}   
+* {
+  box-sizing: border-box;
+}
+
+.box {    
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    
+        }
+
+        
+
+    
+    
+    
+
+ .container {
+  width: 100%;
+  padding: 15px;
+} 
+
+.form {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background: #f4fbdc;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 5px;  
+    
+  }
+    
+
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 15px;
+  padding: 0 20px 0 20px;
+  color: grey;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.button {
+  border: none;
+  width: 400px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background: #bce539;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
