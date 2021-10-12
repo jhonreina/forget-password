@@ -1,16 +1,10 @@
-import woman from "./assests/img/woman.jpg";
-import "./App.css";
+import "./components/recoverPassword/App.css";
 
-import Form from './components/Form';
+import Form from "./components/recoverPassword/Form";
 function App() {
   return (
     <div className="App">
-      <div className="box"> 
       <Form />
-        <div>
-          <img src={woman} className="img" alt="woman" />
-        </div>
-      </div>
     </div>
   );
 }
