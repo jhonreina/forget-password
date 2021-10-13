@@ -1,10 +1,11 @@
 import React from "react";
+import './App.css'
 import woman from "../../assests/img/woman.jpg";
 
 const Form = () => {
   return (
     <div className="box">
-      <form className="form">
+      <form className="form1">
         <h1>Trouble logging in?</h1>
         <h2>Enter your email or phone number below</h2>
         <div className="container">
@@ -12,7 +13,7 @@ const Form = () => {
             <input type="text" placeholder="Phone or Email" />
           </div>
           <input type="submit" value="Continue" className="button" />
-          <p>
+          <p className="center">
             <u>don't remember anything :(</u>
           </p>
         </div>
