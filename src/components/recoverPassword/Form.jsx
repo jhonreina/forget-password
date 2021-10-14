@@ -14,7 +14,7 @@ const Form = () => {
           </div>
           <input type="submit" value="Continue" className="button" />
           <p className="center">
-            <u>don't remember anything :(</u>
+            <u>don't remember anything 🙁</u>
           </p>
         </div>
       </form>
