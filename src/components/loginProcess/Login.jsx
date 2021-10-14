@@ -1,7 +1,7 @@
 import React from 'react';
-import './login.css'
 import title from '../../assests/img/mainlogo-md.png'
 import woman2 from '../../assests/img/woman2.jpg'
+import './login.css'
 
 const Login = () => {
     return (

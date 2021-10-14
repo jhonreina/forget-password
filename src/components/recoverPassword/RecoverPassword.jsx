@@ -1,6 +1,6 @@
 import React from "react";
-import './App.css'
 import woman from "../../assests/img/woman.jpg";
+import './recover.css'
 
 const Form = () => {
   return (
